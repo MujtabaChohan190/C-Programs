@@ -15,7 +15,7 @@ typedef struct {
 } Travel;
 
 // Function to display flight details
-void displayFlightDetails(Travel flight) {
+void displayFlightDetails(Travel flight) { //Flight is a temporary variable being used 
     printf("Flight Number: %d\n", flight.flightNumber);
     printf("Departure City: %s\n", flight.departureCity);
     printf("Destination City: %s\n", flight.destinationCity);
