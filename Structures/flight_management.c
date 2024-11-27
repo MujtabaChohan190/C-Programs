@@ -25,7 +25,7 @@ void displayFlightDetails(Travel flight) {
 
 // Function to book a seat
 void bookSeat(Travel *flight) {
-    if (flight->availableSeats > 0) {
+    if (flight->availableSeats > 0) { //when we want to access flight members through pointer we can use (*flight).available seats or this
         flight->availableSeats--;
         printf("Seat booked successfully! Remaining seats: %d\n", flight->availableSeats);
     } else {
