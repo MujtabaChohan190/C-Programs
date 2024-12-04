@@ -1,3 +1,6 @@
+// Write a program to dynamically allocate memory for a string, accepts input from the user, and calculates the length of the string without using the strlen() function.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
